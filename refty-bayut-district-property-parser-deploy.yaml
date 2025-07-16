@@ -33,7 +33,7 @@ spec:
           value: postgres
         - name: POSTGRES_PORT
           value: '5432'
-        image: ghcr.io/refty-yapi/refty-node/refty-node:NEW-VERSION
+        image: ghcr.io/refty-yapi/refty-node/refty-node:10-07-new
         name: refrefty-bayut-district-property-parser
         volumeMounts:
         - mountPath: /app/config
